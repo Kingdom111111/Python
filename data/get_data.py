@@ -13,14 +13,16 @@ weight = np.array(posi['体重'][0:num])
 x = list(age)
 y = list(weight)
 
+
+
+
 plt.plot(x,y,'r--')
 plt.xlim(10,25)
 plt.ylim(40,60)
-
 plt.xlabel('Age')
 plt.ylabel('Weight')
-
 plt.title("Weight By Age")
+
 plt.show()
 #print(type(age))
 
