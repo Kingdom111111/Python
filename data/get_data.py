@@ -1,8 +1,7 @@
 import matplotlib.pyplot as plt
 import numpy as np
 import pandas as pd
-
-from folium.plugins import  HeatMap
+from folium.plugins import HeatMap
 
 posi = pd.read_excel("test.xlsx")
 num = 60
@@ -16,7 +15,7 @@ y = list(weight)
 
 
 
-plt.plot(x,y,'r--')
+plt.plot(x, y, 'r--')
 plt.xlim(10,25)
 plt.ylim(40,60)
 plt.xlabel('Age')
