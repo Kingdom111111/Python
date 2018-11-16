@@ -5,9 +5,7 @@ import urllib.request
 import urllib.error
 import urllib.parse
 import json
-import io
-import sys
-#sys.stdout = io.TextIOWrapper(sys.stdout.buffer,encoding='gb18030') #改变标准输出的默认编码
+
 def get_all_hotSong():#获取所有歌曲名称与Id
     url = "https://music.163.com/discover/toplist?id=3778678"
     header = {#请求头部
